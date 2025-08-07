@@ -1,0 +1,37 @@
+<idea-plugin>
+    <id>icu.spider007</id>
+
+    <name>PayPerTick</name>
+
+    <vendor email="waxjava04@163.com" url="https://spider007.icu">Wax</vendor>
+
+    <description><![CDATA[嘿，程序员朋友！👨‍💻👩‍💻 还在疑惑自己加班到底值不值？想不想知道你敲的每一行代码值多少钱？]]></description>
+
+
+    <idea-version since-build="223" until-build="252.*" />
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="PayPerTick"
+                    anchor="bottom"
+                    factoryClass="icu.spider007.SalaryCalculatorToolWindowFactory"
+
+                   />
+    </extensions>
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService
+                serviceImplementation="icu.spider007.config.SalaryCalculatorConfig"/>
+    </extensions>
+    <extensions defaultExtensionNs="com.intellij">
+        <statusBarWidgetProvider implementation="icu.spider007.EarningsStatusWidget$Provider"/>
+    </extensions>
+    <actions>
+        <action id="SalaryCalculatorAction" class="icu.spider007.SalaryCalculatorAction"
+                text="Open PayPerTick" description="Click Me Open PayPerTick">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+    </actions>
+
+
+</idea-plugin>
