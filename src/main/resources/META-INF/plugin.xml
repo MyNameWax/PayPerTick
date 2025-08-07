@@ -3,9 +3,35 @@
 
     <name>PayPerTick</name>
 
-    <vendor email="waxjava04@163.com" url="https://spider007.icu">Wax</vendor>
+    <vendor email="waxjava04@163.com" url="https://github.com/MyNameWax">Wax</vendor>
 
-    <description><![CDATA[嘿，程序员朋友！👨‍💻👩‍💻 还在疑惑自己加班到底值不值？想不想知道你敲的每一行代码值多少钱？]]></description>
+    <description><![CDATA[
+        PayPerTick <br>
+        <a href="https://github.com/MyNameWax/PayPerTick">GitHub</a><br>
+
+        <br>
+        Features<br>
+
+        <br>
+        <em>1.Entry, see Tools->PayPerTick</em><br>
+        <em>2.More warm tips, more accurate calculations</em><br>
+
+        <br>
+        <em>1.工具入口 Tools->PayPerTick</em><br>
+        <em>2.更温馨的提示,更准确的计算</em><br>
+
+        <br>
+        How to use<br>
+
+        <br>
+        <em>1.Open PayPerTick</em><br>
+        <em>2.Fill Info</em><br>
+        <em>3.Enjoy it</em><br>
+
+        <br>
+        more information, you can see <a href="https://github.com/MyNameWax/PayPerTick">https://github.com/MyNameWax/PayPerTick</a>
+    ]]></description>
+
 
 
     <idea-version since-build="223" until-build="252.*" />
